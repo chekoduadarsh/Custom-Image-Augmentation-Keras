@@ -26,8 +26,8 @@ def Image_Augmentation(method):
         equ = cv2.cvtColor(equ  ,cv2.COLOR_GRAY2RGB)
         return equ
 
-    if method == "contrast_streach":
-        return contrast_stretch
+    if method == "contrast_stretch":
+            return contrast_stretch
     if method == "CLAHE":
             return CLAHE
     if method == "histogram_equalization":
