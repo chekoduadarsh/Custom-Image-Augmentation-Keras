@@ -1,4 +1,4 @@
-# image-augmentation-keras
+# Image Augmentation Keras
 This is an Image Augmentation library designed to suppot `ImageDataGenerator()` from `keras.preprocessing` library.
 
 ### Welcoming contribution to this repo!!! you can include any image processing techiques to this code 
