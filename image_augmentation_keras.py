@@ -12,7 +12,7 @@ def Image_Augmentation(method):
             for j in range(input_img.shape[1]):
                 minmax_img[i,j] = 255*(input_img[i,j]-np.min(input_img))/(np.max(input_img)-np.min(input_img))
         equ = cv2.cvtColor(equ  ,cv2.COLOR_GRAY2RGB)
-        return minmax_img
+        return equ
 
     def CLAHE(input_img):
         input_img = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
